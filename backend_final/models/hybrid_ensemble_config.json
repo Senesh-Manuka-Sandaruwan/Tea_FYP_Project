@@ -1,0 +1,19 @@
+{
+    "models": [
+        "simple_cnn_best.pth",
+        "efficientnet_b0_best.pth",
+        "vit_base_patch16_224_best.pth"
+    ],
+    "model_keys": [
+        "cnn",
+        "efficientnet",
+        "vit"
+    ],
+    "weights": [0.30, 0.50, 0.20],
+    "classes": [
+        "brown_blight",
+        "gray_blight",
+        "healthy",
+        "red_rust"
+    ]
+}
